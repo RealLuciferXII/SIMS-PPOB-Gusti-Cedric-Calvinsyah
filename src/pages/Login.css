@@ -1,10 +1,9 @@
-/* Gaya Umum Halaman */
 .login-page {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100vh;
-    background-color: #f4f7fc; /* Background warna halaman */
+    background-color: #f4f7fc;
   }
   
   .form-container {

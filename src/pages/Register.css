@@ -7,7 +7,6 @@
   } */
   .register-page {
     display: flex;
-    /* justify-content: center;  */
     align-items: center;
     height: 100vh;
   }
@@ -15,14 +14,12 @@
   .form-container {
     width: 40%;
     padding-left: 50px;
-    /* border: 1px solid #ddd; */
     border-radius: 10px;
     flex-direction: column;
     margin-left: 20;
     margin-right: 20;
     display: flex;
-    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
-    /* background-color: white; */
+
   }
   
   h2 {
@@ -117,35 +114,35 @@
     }
   
     .illustration-container {
-      width: 100%; /* Gambar akan mengisi seluruh lebar pada perangkat kecil */
-      height: auto; /* Menyesuaikan tinggi gambar */
+      width: 100%; 
+      height: auto; 
     }
   }
 
   .logo-title-container {
     display: flex;
-    align-items: center; /* Vertikal tengah */
+    align-items: center;
   }
   
   .logo-icon {
-    width: 30px; /* Sesuaikan ukuran logo */
-    height: 30px; /* Sesuaikan ukuran logo */
-    margin-right: 10px; /* Memberikan jarak antara logo dan teks */
+    width: 30px; 
+    height: 30px;
+    margin-right: 10px;
     padding-top: 5px;
   }
   
   .username-icon {
-    padding-left: 30px; /* Beri jarak untuk ikon */
+    padding-left: 30px;
     background: url('../assets//icon//usernameicon.png') no-repeat 10px center;
     background-size: 16px;
   }
   .name1-icon {
-    padding-left: 30px; /* Beri jarak untuk ikon */
+    padding-left: 30px;
     background: url('../assets//icon/profileicon.png') no-repeat 10px center;
     background-size: 16px;
   }
   .password-icon {
-    padding-left: 30px; /* Beri jarak untuk ikon */
+    padding-left: 30px;
     background: url('../assets//icon/passwordicon.png') no-repeat 10px center;
     background-size: 16px;
   }
