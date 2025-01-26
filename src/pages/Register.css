@@ -1,0 +1,177 @@
+   /* .register-page {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+    align-items: center;
+    height: 100vh;
+  } */
+  .register-page {
+    display: flex;
+    /* justify-content: center;  */
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    width: 40%;
+    padding-left: 50px;
+    /* border: 1px solid #ddd; */
+    border-radius: 10px;
+    flex-direction: column;
+    margin-left: 20;
+    margin-right: 20;
+    display: flex;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+    /* background-color: white; */
+  }
+  
+  h2 {
+    text-align: center;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    justify-content: center;
+    display: flex;
+  }
+  
+  label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input:focus {
+    border-color: #f44336;
+    outline: none;
+  }
+  
+  .register-button {
+    width: 100%;
+    padding: 14px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .register-button:hover {
+    background-color: #e53935;
+  }
+  
+  .login-link {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .login-link a {
+    color: #f44336;
+    text-decoration: none;
+  }
+  
+  .illustration-container {
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    margin: 0; 
+    padding: 0;
+  }
+  
+  .illustration-container img {
+    max-width: 120%;
+    max-height: 100%;
+    object-fit: contain; 
+  }
+  
+  @media (max-width: 768px) {
+    .register-page {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .form-container {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  
+    .illustration-container {
+      width: 100%; /* Gambar akan mengisi seluruh lebar pada perangkat kecil */
+      height: auto; /* Menyesuaikan tinggi gambar */
+    }
+  }
+
+  .logo-title-container {
+    display: flex;
+    align-items: center; /* Vertikal tengah */
+  }
+  
+  .logo-icon {
+    width: 30px; /* Sesuaikan ukuran logo */
+    height: 30px; /* Sesuaikan ukuran logo */
+    margin-right: 10px; /* Memberikan jarak antara logo dan teks */
+    padding-top: 5px;
+  }
+  
+  .username-icon {
+    padding-left: 30px; /* Beri jarak untuk ikon */
+    background: url('../assets//icon//usernameicon.png') no-repeat 10px center;
+    background-size: 16px;
+  }
+  .name1-icon {
+    padding-left: 30px; /* Beri jarak untuk ikon */
+    background: url('../assets//icon/profileicon.png') no-repeat 10px center;
+    background-size: 16px;
+  }
+  .password-icon {
+    padding-left: 30px; /* Beri jarak untuk ikon */
+    background: url('../assets//icon/passwordicon.png') no-repeat 10px center;
+    background-size: 16px;
+  }
+  
+  .password-group {
+    position: relative;
+  }
+  
+  .eye-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .eye-icon:hover {
+    color: #f44336;
+  }
+  
+  
+
+  
+  
+  
